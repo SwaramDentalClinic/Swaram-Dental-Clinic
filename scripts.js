@@ -1,4 +1,2 @@
-document.getElementById('appointment-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Appointment booked successfully! We will get in touch with you soon.');
-});
+// Add any interactive JavaScript functionality if needed
+console.log("Welcome to Swaram Dental Clinic!");
