@@ -1,69 +1,63 @@
-/* Basic Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    background-color: #f5f5f5;
 }
 
 header {
-    background: #4CAF50;
+    background-color: #4CAF50;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 1em 0;
 }
 
-h1, h2, h3 {
-    margin: 10px 0;
+h1, h2 {
+    margin: 0.5em 0;
 }
 
-p {
-    margin: 10px 0;
-}
-
-section {
+main {
     padding: 20px;
 }
 
-.service {
-    margin: 20px 0;
+.services {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.btn-primary {
-    background-color: #f39c12;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
+.service-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-thumbnails img {
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label, input, select, button {
-    margin: 10px 0;
-}
-
-button {
-    background: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #45a049;
+.contact {
+    text-align: center;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
+    background-color: #333;
     color: white;
-    position: fixed;
-    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
     bottom: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
 }
