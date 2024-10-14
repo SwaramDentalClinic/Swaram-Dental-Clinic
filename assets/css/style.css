@@ -525,9 +525,9 @@ padding-top: -100px;
   #CTA
 \*-----------------------------------*/
 
-.cta { background-color: var(--oxford-blue-1); }
+.cta { background-color: var(--oxford-blue-1);margin-top: 130px; }
 
-.cta-banner { margin-block-end: 50px; }
+.cta-banner { margin-block-end: 50px;padding-top: 130px; }
 
 .cta .section-subtitle { text-transform: capitalize; }
 
